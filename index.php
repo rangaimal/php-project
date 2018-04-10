@@ -2,7 +2,10 @@
  <?php
  //check the form submission
 if(isset($_POST['submit'])){
-
+//check the user name and password enter
+	if(!isset($_POST['email']) || strlen(trim($_POST['email'])) <1){
+		
+	}
 
 
 
