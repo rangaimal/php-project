@@ -66,7 +66,7 @@ if(!isset($_POST['password']) || strlen(trim($_POST['password'])) <1){
 </p>
 <p>
 	<label for="">Password:</label>
-	<input type="Password" name="Password" id="" placeholder="Password">
+	<input type="Password" name="password" id="" placeholder="Password">
 </p>
 <p>
 	<button type="submit" name="submit">Log in</button>
